@@ -3,7 +3,7 @@ Esta atividade utiliza o conjunto de dados do Titanic, disponível no Kaggle atr
 
 # 1. Carregamento e Pré-processamento dos Dados
 Carregamento dos Dados
-Os dados foram carregados diretamente do arquivo CSV que está anexado neste reposítório. As colunas principais incluem informações sobre os passageiros, como classe social (Pclass), idade (Age), tarifa (Fare), sexo (Sex), entre outras.
+Os dados foram carregados diretamente do arquivo CSV (train.csv) que está anexado neste reposítório. As colunas principais incluem informações sobre os passageiros, como classe social (Pclass), idade (Age), tarifa (Fare), sexo (Sex), entre outras.
 
 Tratamento de Valores Nulos
 Coluna Age: Contém valores nulos, que foram preenchidos pela média de idades.
