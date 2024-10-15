@@ -50,4 +50,4 @@ Normalização dos Dados: O k-NN é sensível à escala dos dados, então normal
 
 Escolha do k: O valor de k=3 foi definido. Realizando testes com um número maior de vizinhos, o melhor valor para definir no k é o 9 que permitiu uma acurácia de 69%.
 
-Modelo Simples: Embora o k-NN seja fácil de implementar, outros algoritmos de classificação, como a Regressão Logística, Árvores de Decisão ou Random Forest, podem ser comparados para ver se melhoram a previsão de sobrevivência.
+Modelo Simples: Embora o k-NN seja fácil de implementar, outros algoritmos de classificação, como a Regressão Logística (testei e deu 79% de acurácia), Árvores de Decisão ou Random Forest, podem ser comparados para ver se melhoram a previsão de sobrevivência.
