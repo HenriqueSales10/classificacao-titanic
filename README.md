@@ -45,6 +45,9 @@ A matriz de confusão pode ser usada para calcular outras métricas como precis�
 
 # 4. Observações e Melhorias Possíveis
 Número de Variáveis: Apenas quatro variáveis foram utilizadas para treinar o modelo. O uso de mais variáveis, como SibSp (número de irmãos/cônjuges a bordo) e Parch (número de pais/filhos a bordo), poderia melhorar a precisão do modelo.
+
 Normalização dos Dados: O k-NN é sensível à escala dos dados, então normalizar as variáveis numéricas pode melhorar o desempenho do modelo.
-Escolha do k: O valor de k=3 foi definido. Realizando testes com um número maior de vizinhos, a porcentagem de acurácia diminuiu.
+
+Escolha do k: O valor de k=3 foi definido. Realizando testes com um número maior de vizinhos, o melhor valor para definir no k é o 9 que permitiu uma acurácia de 69%.
+
 Modelo Simples: Embora o k-NN seja fácil de implementar, outros algoritmos de classificação, como a Regressão Logística, Árvores de Decisão ou Random Forest, podem ser comparados para ver se melhoram a previsão de sobrevivência.
